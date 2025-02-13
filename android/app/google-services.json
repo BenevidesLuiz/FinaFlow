@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "108917344583",
+    "project_id": "faturei-app-9e171",
+    "storage_bucket": "faturei-app-9e171.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108917344583:android:c4d5598765452c3b67e462",
+        "android_client_info": {
+          "package_name": "com.Luizbenevides.faturei"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEEO_tejc218zo50GatD2P6FgTmYruyIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108917344583:android:97843eb4358586f167e462",
+        "android_client_info": {
+          "package_name": "com.example.FinaFlow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEEO_tejc218zo50GatD2P6FgTmYruyIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
