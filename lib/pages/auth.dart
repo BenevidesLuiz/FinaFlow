@@ -16,7 +16,7 @@ class _AuthPageState extends State<AuthPage> {
     super.initState();
     Future.microtask(() async {
       final user = await Get.find<UserController>().getUser;
-      if (user != null) {
+      if (user != '') {
         Get.offNamed('/home');
       }
     });
@@ -39,7 +39,7 @@ class _AuthPageState extends State<AuthPage> {
       ],
       headerBuilder: (context, constraints, shrinkoffset) {
         return Image.asset(
-          'assets/logo.png',
+          'assets/icons/logo.png',
           width: constraints.maxWidth,
           height: constraints.maxHeight,
         );

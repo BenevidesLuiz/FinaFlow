@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
+import 'package:FinaFlow/controllers/user.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -133,8 +134,9 @@ class _ProfileState extends State<Profile> {
           },
         ),
         actions: [
-          SignedOutAction((context) {
-            Get.offNamed('/auth');
+          SignedOutAction((context) async {
+            Get.find<UserController>().setUserToken = '';
+            await Get.offNamed('/auth');
           }),
         ],
       )),
