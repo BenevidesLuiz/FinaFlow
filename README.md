@@ -59,8 +59,6 @@ Projeto de aplicativo móvel em Flutter, o objetivo do aplicativo é a organiza�
 
 ### Home Screen
 
-
-
-### Flavors
+    - Funcionalidade principal do aplicativo: Salvar as Despesas mensais 
 
     

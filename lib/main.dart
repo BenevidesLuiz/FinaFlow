@@ -37,6 +37,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       localizationsDelegates: [
         FirebaseUILocalizations.withDefaultOverrides(const LabelOverrides()),
         FirebaseUILocalizations.delegate,
