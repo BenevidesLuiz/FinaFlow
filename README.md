@@ -9,6 +9,8 @@ Projeto de aplicativo móvel em Flutter, o objetivo do aplicativo é a organiza�
    - Redirecionamento de Telas
    - Armazenar os Usuários e acessos no painel do Firabase
    - Subir e restaurar imagem do perfil pela camera ou pela galeria do app
+   - Cadastar, armazenar e visualizar contas.
+   - Layout com gráficos.
 
 ## Tópicos
 

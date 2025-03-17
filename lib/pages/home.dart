@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
     super.dispose();
   }
 
-  void _showAddAccountDialog(BuildContext context) {
+  void showAddAccountDialog(BuildContext context) {
     final _nameController = TextEditingController();
     final _dueDateController = TextEditingController();
     final _valueController = TextEditingController();
@@ -168,7 +168,7 @@ class _HomeState extends State<Home> {
           IconButton(
             icon: const Icon(Icons.add, size: 40),
             onPressed: () {
-              _showAddAccountDialog(context);
+              showAddAccountDialog(context);
             },
           ),
         ],
